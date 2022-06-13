@@ -11,6 +11,7 @@ import { Paper } from "@mui/material";
 import SkillsCard from "../Components/SkillsCard";
 import skills from "../data/skills";
 import CarouselContainer from "../Components/Carousel";
+import experiance from "../data/experiance";
 
 const Home = (props) => {
     const particlesInit = async (main) => {
@@ -166,11 +167,31 @@ const Home = (props) => {
             </section>
         </Box>
         <Paper elevation={3} sx={{ backgroundColor: 'background.default', p: { xs: '1rem', md: '2rem 5rem' } }}>
-            <section id='Experiance'>
-                <Typography variant="h4" component="div" gutterBottom>My Experiance</Typography>
-
+            <section id='Recent Experiance'>
+                <Typography variant="h4" component="div" gutterBottom>Recent Experiance</Typography>
+                {experiance.map((item) => {
+                    return <Grid container spacing={2}>
+                        <Grid item xs={12} md={4} sx={{ display: 'flex', justifyContent: 'center' }}>
+                            <img src={item.mobile} alt='An Image of the SPFA webiste' aria-hidden='true' style={{ width: '50%' }} />
+                        </Grid>
+                        <Grid item xs={12} md={8}>
+                            <Typography variant="h4" component="div" gutterBottom>{item.title}</Typography>
+                            <Typography variant="p" component="div" gutterBottom>{item.description}</Typography>
+                        </Grid>
+                    </Grid>
+                })}
             </section>
         </Paper>
+        <Box sx={{ p: { xs: '1rem', md: '2rem 5rem' } }}>
+        <Typography variant="h4" component="div" gutterBottom>Contact Information</Typography>
+            <Paper elevation={3} sx={{ backgroundColor: 'background.default', p: { xs: '1rem', md: '2rem 5rem' } }}>
+                <section id='Contact'>
+                    <Typography variant="p" component="div" gutterBottom>Email Address: emmaholland13@hotmail.com</Typography>
+                    <Typography variant="p" component="div" gutterBottom>Cell Phone: +1 (613) 661-4653</Typography>
+                    <Typography variant="p" component="div" gutterBottom>Mailing Address: 19 Cottonwood Drive, Belleville, Ontario, K8N 0J3</Typography>
+                </section>
+            </Paper>
+        </Box>
     </Fragment>
 }
 export default Home;

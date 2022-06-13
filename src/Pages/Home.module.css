@@ -3,3 +3,10 @@
     width: 100%;
     z-index: -1;
 }
+.emailText {
+    transform: rotate(-90deg);
+    position: 'fixed';
+    bottom: 1rem;
+    left: 1rem;
+    z-index: 10;
+}
