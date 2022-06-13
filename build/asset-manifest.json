@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4ce3e11d.css",
+    "main.js": "/static/js/main.9c2ddb01.js",
+    "static/js/937.0ceaffc7.chunk.js": "/static/js/937.0ceaffc7.chunk.js",
+    "static/media/spfawebsite.webp": "/static/media/spfawebsite.e121d5e29a9b2922b505.webp",
+    "static/media/spfamobile.webp": "/static/media/spfamobile.c6d5075c9fb2202373d1.webp",
+    "static/media/emmaholland.jpg": "/static/media/emmaholland.64b031aa2cd9a50d91f0.jpg",
+    "static/media/Emma holland.webp": "/static/media/Emma holland.cf3cd5f316aa37e440a7.webp",
+    "static/media/resume.pdf": "/static/media/resume.21e45a4cdd36406a860d.pdf",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/logoDark.webp": "/static/media/logoDark.bb1fa88af9d39b45a42d.webp",
+    "static/media/logo.webp": "/static/media/logo.5c6ab8f08d25e6e32628.webp",
+    "index.html": "/index.html",
+    "main.4ce3e11d.css.map": "/static/css/main.4ce3e11d.css.map",
+    "main.9c2ddb01.js.map": "/static/js/main.9c2ddb01.js.map",
+    "937.0ceaffc7.chunk.js.map": "/static/js/937.0ceaffc7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4ce3e11d.css",
+    "static/js/main.9c2ddb01.js"
+  ]
+}
