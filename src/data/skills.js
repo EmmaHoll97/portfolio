@@ -18,7 +18,7 @@ const skills = [
     {
         icon: <i class="fa-brands fa-react fa-2x"></i>,
         title: 'React Development',
-        description: "All my website font-ends are built using react Js. React is a fast and reliable javascript framework that makes managing states easier, handling and displaying data with low latency, and makes production.",
+        description: "All my website font-ends are built using react Js. React is a fast and reliable javascript framework that makes managing states easier, handling and displaying data with low latency, and makes production faster and more reliable.",
     },
     {
         icon: <PhoneAndroidIcon sx={{ fontSize: 40 }} />,
