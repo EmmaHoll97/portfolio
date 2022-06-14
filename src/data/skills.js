@@ -18,12 +18,12 @@ const skills = [
     {
         icon: <i class="fa-brands fa-react fa-2x"></i>,
         title: 'React Development',
-        description: "All my website font-ends arere built using react Js. React is a fast and reliable javascript framework that makes managing states easier, handling and displaying data with low latency, and makes production.",
+        description: "All my website font-ends are built using react Js. React is a fast and reliable javascript framework that makes managing states easier, handling and displaying data with low latency, and makes production.",
     },
     {
         icon: <PhoneAndroidIcon sx={{ fontSize: 40 }} />,
         title: 'Mobile First Design',
-        description: "In our modern world, over 68% of all web traffic globally is generated via mobile users. This number is even larger in Canada and the U.S. with companies like Facebook reporting a mobile user rate of over 95%. All my designs keep this in mind. I develop first for mobile platforms this ensures that your users will love your site regardless of device type or screen size.",
+        description: "In our modern world, over 68% of all web traffic globally is generated via mobile users. This number is even larger in Canada and the U.S. with companies like Facebook reporting a mobile user rate of over 95%. All my designs keep this in mind. I develop first for mobile platforms, this ensures that your users will love your site regardless of device type or screen size.",
     },
     {
         icon: <CookieRoundedIcon sx={{ fontSize: 40 }} />,
