@@ -14,7 +14,7 @@ const Navbar = (props) => {
              {pages.map((page) => {
                 return <Typography key={page} variant="p" component="div" gutterBottom><a style={{color: 'inherit', fontSize: 'inherit', textDecoration: 'inherit'}} href={`#${page}`}>{page}</a></Typography>
              })}
-            <Button target='_blank' href={resume} variant='outlined' sx={{borderRadius: '50rem'}}>Resume</Button>
+            <Button target='_blank' href='https://www.smartr.me/me/emma.aholland' variant='outlined' sx={{borderRadius: '50rem'}}>Resume</Button>
         </Box>
     </Box>
 }
