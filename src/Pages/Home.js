@@ -147,7 +147,7 @@ const Home = (props) => {
                             Fast-forward to now, I have been developing modern web applications using react, node, ES6, and a few
                             other handy tools. I specialize in handling large or non-uniform data sets with noSQL servers like MongoDB
                             and Nodejs. I pride myself on designing beautiful front-end UI and UX with React. Currently, I work
-                            full-time as head of development at <Typography color='primary' variant="p" component="span"> Awareness Athletics Inc. </Typography>
+                            full-time as a web applications engineer at <Typography color='primary' variant="p" component="span"> Royal Bank of Canada. </Typography>
                             and complete freelance work for others as well.
                         </Typography>
                     </Grid>
